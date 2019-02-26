@@ -42,7 +42,7 @@ https://springboot-soccer-api.herokuapp.com/scorers/italy
 
 
 # Query for getting standings of Spanish League;
-https://springboot-#soccer-api.herokuapp.com/standings/spain
+https://springboot-soccer-api.herokuapp.com/standings/spain
 
 ## Result:
         [{{id: 1,
