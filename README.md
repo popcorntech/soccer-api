@@ -2,25 +2,17 @@
 Free Soccer Restful Api service for developers
 
 League Titles:
-
 turkey		(Turkish Super Lig)
-
 germany		(Bundesliga)
-
 france		(Ligue 1)
-
 italy		(Serie A)
-
 spain		(La Liga)
-
 england		(Premier League)
-
 spor-toto	(Turkish 1.League)
 
 
 
 You can get standings, top scorers, and fixtures datas of European Leagues with this free restful api service.
-
 Important Note: Home and away scores of unplayed matches return -1 value!
 
 
