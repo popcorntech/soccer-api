@@ -1,31 +1,27 @@
 # soccer-api
-Free Soccer Restful Api service for developers
 
-League Titles:
-turkey		(Turkish Super Lig)
-germany		(Bundesliga)
-france		(Ligue 1)
-italy		(Serie A)
-spain		(La Liga)
-england		(Premier League)
-spor-toto	(Turkish 1.League)
+_Free Soccer Restful Api service for developers_
+_You can get standings, top scorers, and fixtures datas of European Leagues with this free restful api service._
 
+## League Titles:
+* turkey		(Turkish Super Lig)
+* germany		(Bundesliga)
+* france		(Ligue 1)
+* italy		(Serie A)
+* spain		(La Liga)
+* england		(Premier League)
+* spor-toto	(Turkish 1.League)
 
+_**Important Note: Home and away scores of unplayed matches return -1 value!**_
 
-You can get standings, top scorers, and fixtures datas of European Leagues with this free restful api service.
-Important Note: Home and away scores of unplayed matches return -1 value!
+* /standings/{league-title}
+* /scorers/{league-title}
+* /fixtures/{league-title}
 
-
-/standings/{league-title}
-
-/scorers/{league-title}
-
-/fixtures/{league-title}
-
-Query for getting fixtures of English League;
+# Query for getting fixtures of English League;
 https://springboot-soccer-api.herokuapp.com/fixtures/england
 
-Result:
+## Result:
         [{id: 1,
         country: "england",
         home: "Cardiff City",
@@ -34,10 +30,10 @@ Result:
         awayScore: 1,
         date: "6 Şubat 2019 Salı 22:45"},...]
 
-Query for getting top scorers of Italian League;
+# Query for getting top scorers of Italian League;
 https://springboot-soccer-api.herokuapp.com/scorers/italy
 
-Result:
+## Result:
         [{id: 1,
         name: "Cristiano Ronaldo",
         team: "Juventus",
@@ -45,10 +41,10 @@ Result:
         matches: 25},...]
 
 
-Query for getting standings of Spanish League;
-https://springboot-soccer-api.herokuapp.com/standings/spain
+# Query for getting standings of Spanish League;
+https://springboot-#soccer-api.herokuapp.com/standings/spain
 
-Result:
+## Result:
         [{{id: 1,
         name: "Barcelona",
         om: 25,
